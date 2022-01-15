@@ -1,6 +1,7 @@
 {
-  "name": "videojsquality",
+  "name": "videojs-hotkeys-seekbuttons",
   "version": "0.1.0",
+  "author": "Behrad Hajmiri",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",

@@ -1,6 +1,5 @@
 /* eslint-disable */
 import React, { useEffect, useRef } from 'react';
-import sources, { foreignSources } from './sources';
 
 import videojs from 'video.js';
 import 'videojs-seek-buttons';
@@ -8,7 +7,6 @@ import 'videojs-hotkeys';
 
 import './App.css'
 import 'video.js/dist/video-js.css';
-import './videojs-seek-buttons.css';
 
 export const VideoJS = (props) => {
   const videoRef = useRef(null);

@@ -39,7 +39,6 @@ export const VideoJS = (props) => {
         //   }
         // ]
       // );
-      player.controlBar.addChild('QualitySelector');
       player.hotkeys({
         volumeStep: 0.1,
         seekStep: 5,

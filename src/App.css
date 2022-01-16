@@ -1,8 +1,7 @@
-.video-js .vjs-current-time,
-.vjs-no-flex .vjs-current-time,
+.vjs-current-time,
 .vjs-time-divider,
-.video-js .vjs-duration,
-.vjs-no-flex .vjs-duration {
+.vjs-duration,
+.vjs-duration {
   display: block !important;
 }
 
@@ -13,23 +12,16 @@
   font-size: 1.5em;
 }
 
-.vjs-quality-selector .vjs-menu-button {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-  width: 100%;
-}
 .vjs-quality-selector .vjs-icon-placeholder {
   font-family: "VideoJS";
   font-weight: normal;
   font-style: normal;
 }
+
 .vjs-quality-selector .vjs-icon-placeholder::before {
   content: "\f110";
 }
-.vjs-quality-changing .vjs-big-play-button {
-  display: none;
-}
+
 .vjs-quality-changing .vjs-control-bar {
   display: -webkit-box;
   display: -webkit-flex;
@@ -44,6 +36,7 @@
   font-weight: 400;
   font-style: normal;
 }
+
 .video-js .vjs-seek-button.skip-back::before,
 .video-js.vjs-v6 .vjs-seek-button.skip-back .vjs-icon-placeholder::before,
 .video-js.vjs-v7 .vjs-seek-button.skip-back .vjs-icon-placeholder::before {
@@ -52,18 +45,21 @@
   -webkit-transform: rotate(-45deg);
   content: "\f116";
 }
+
 .video-js .vjs-seek-button.skip-forward::before {
   transform: rotateY(180deg) rotate(-45deg);
   -ms-transform: rotateY(180deg) rotate(-45deg);
   -webkit-transform: rotateY(180deg) rotate(-45deg);
   content: "\f116";
 }
+
 .video-js.vjs-v6 .vjs-seek-button.skip-back::before,
 .video-js.vjs-v6 .vjs-seek-button.skip-forward::before,
 .video-js.vjs-v7 .vjs-seek-button.skip-back::before,
 .video-js.vjs-v7 .vjs-seek-button.skip-forward::before {
   content: none;
 }
+
 .video-js.vjs-v6 .vjs-seek-button.skip-forward .vjs-icon-placeholder::before,
 .video-js.vjs-v7 .vjs-seek-button.skip-forward .vjs-icon-placeholder::before {
   transform: scale(-1, 1) rotate(-45deg);

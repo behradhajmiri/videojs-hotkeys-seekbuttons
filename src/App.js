@@ -11,6 +11,21 @@ const App = function App() {
     responsive: true,
     fluid: true,
     playbackRates: [0.5, 1, 1.5, 2],
+    controlBar: {
+      children: [
+        'playToggle',
+        'volumePanel',
+        'currentTimeDisplay',
+        'timeDivider',
+        'durationDisplay',
+        'progressControl',
+        'remainingTimeDisplay',
+        'playbackRateMenuButton',
+        'qualitySelector',
+        'pictureInPictureToggle',
+        'fullscreenToggle',
+      ]
+    },
     plugins: {
       seekButtons: {
         forward: 5,

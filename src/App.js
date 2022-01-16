@@ -1,8 +1,5 @@
 import React from 'react';
 import VideoJS from './VideoPlayer';
-import { foreignSources } from './sources';
-
-const url = foreignSources[1].src;
 
 const App = function App() {
 
@@ -14,46 +11,12 @@ const App = function App() {
     responsive: true,
     fluid: true,
     playbackRates: [0.5, 1, 1.5, 2],
-    // controlBar: {
-    // 'pictureInPictureToggle': true,
-    // 'picture-in-picture-toggle': true
-    // 'vjs-picture-in-picture-control': true
-    //   children: [
-    //     'playToggle',
-    //     'volumeMenuButton',
-    //     'currentTimeDisplay',
-    //     'timeDivider',
-    //     'durationDisplay',
-    //     'progressControl',
-    //     'remainingTimeDisplay',
-    //     'picture-in-picture-toggle',
-    //     'fullscreenToggle',
-    //     'pictureInPictureToggle',
-    //     'vjs-picture-in-picture-control'
-    //   ]
-    // },
     plugins: {
-      // videoJsResolutionSwitcher: {
-      //   default: 'high',
-      //   dynamicLabel: true
-      // },
       seekButtons: {
         forward: 5,
         back: 10
-      },
-    },
-    sources: [{
-      src: url,
-      type: 'video/mp4'
-    },
-    {
-      src: url,
-      type: 'video/webm',
-    },
-    {
-      src: url,
-      type: 'video/ogg',
-    }]
+      }
+    }
   }
 
   const handlePlayerReady = (player) => {

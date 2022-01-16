@@ -1,15 +1,21 @@
-### Video Player
+# Video Player
 
-This is a video player that uses video.js and has two options:
-hotkeys and seek buttons.
+This is a video player with react that uses video.js and has three options:
+- hotkeys
+- seek buttons
+- quality selector
 
 For more information please check the links:
 
-- https://github.com/ctd1500/videojs-hotkeys#enable-the-plugin
-
+- https://github.com/silvermine/videojs-quality-selector
+- https://github.com/ctd1500/videojs-hotkeys
 - https://github.com/mister-ben/videojs-seek-buttons
 
-### Please run `npm i` first.
+## Available Scripts
+
+### `npm i`
+
+Installs the packages.
 
 ### `npm start`
 

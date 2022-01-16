@@ -1,12 +1,14 @@
 /* eslint-disable */
 import React, { useEffect, useRef } from 'react';
-
-import videojs from 'video.js';
-import 'videojs-seek-buttons';
-import 'videojs-hotkeys';
-
+import sources, { foreignSources } from './sources';
 import './App.css'
 import 'video.js/dist/video-js.css';
+import videojs from 'video.js';
+import 'videojs-hotkeys';
+import 'videojs-seek-buttons';
+import qualitySelector from '@silvermine/videojs-quality-selector';
+
+qualitySelector(videojs);
 
 export const VideoJS = (props) => {
   const videoRef = useRef(null);
@@ -22,6 +24,22 @@ export const VideoJS = (props) => {
       const player = (playerRef.current = videojs(videoElement, options, () => {
         onReady && onReady(player);
       }));
+      player.src(sources);
+      // player.src(
+        // [{
+        //   src: foreignSources[2].src,
+        //   type: 'video/mp4',
+        //   label: foreignSources[2].label,
+        // }]
+        //   [
+        //   {
+        //     src: sources[4].source_file,
+        //     type: 'video/mp4',
+        //     label: sources[4].name,
+        //   }
+        // ]
+      // );
+      player.controlBar.addChild('QualitySelector');
       player.hotkeys({
         volumeStep: 0.1,
         seekStep: 5,

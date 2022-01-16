@@ -2,17 +2,18 @@ const sources = [
   {
     label: '720p',
     src: 'https://aspb31.cdn.asset.aparat.com/aparat-video/01818e7337558a20bafe2b5f033bdca538564648-720p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImZkODAwNTcyNWZjYzRkNDNlNWFiYjFjMzk3MjQ4ZmFkIiwiZXhwIjoxNjQwODc3MjY2LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.NzoqhCmx938qYuPdHDtVLL4gu-O3yXmEMxJ7asERg9Q',
-    type: 'video/mp4'
+    type: 'video/mp4',
   },
   {
     label: '480p',
     src: 'https://aspb31.cdn.asset.aparat.com/aparat-video/01818e7337558a20bafe2b5f033bdca538564648-480p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImZkODAwNTcyNWZjYzRkNDNlNWFiYjFjMzk3MjQ4ZmFkIiwiZXhwIjoxNjQwODc3MjY2LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.NzoqhCmx938qYuPdHDtVLL4gu-O3yXmEMxJ7asERg9Q',
-    type: 'video/mp4'
+    type: 'video/mp4',
   },
   {
     label: '360p',
     src: 'https://aspb31.cdn.asset.aparat.com/aparat-video/01818e7337558a20bafe2b5f033bdca538564648-360p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImZmNTIzMzRjNmYxODJiNzRlMmU4OTJlMmM1MGQ1MTdhIiwiZXhwIjoxNjQwODc3NjYwLCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.EuIWvxsKJe0EzP8bY0rgz09NV8wHsW-m5R86gdHbCGo',
-    type: 'video/mp4'
+    type: 'video/mp4',
+    selected: true,
   },
   {
     label: '240p',

@@ -1,9 +1,9 @@
 {
-  "name": "videojs-hotkeys-seekbuttons",
+  "name": "videojs-quality-hotkeys-seekbuttons",
   "version": "0.1.0",
-  "author": "Behrad Hajmiri",
   "private": true,
   "dependencies": {
+    "@silvermine/videojs-quality-selector": "^1.2.5",
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
@@ -12,7 +12,9 @@
     "react-scripts": "5.0.0",
     "video.js": "^7.17.0",
     "videojs-hotkeys": "^0.2.27",
-    "videojs-seek-buttons": "^2.2.0"
+    "videojs-seek-buttons": "^2.2.0",
+    "videojs-css": "^1.2.0"
+    
   },
   "scripts": {
     "start": "react-scripts start",

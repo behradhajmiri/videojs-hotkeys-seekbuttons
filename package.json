@@ -1,6 +1,8 @@
 {
   "name": "videojs-quality-hotkeys-seekbuttons-css",
   "version": "0.1.0",
+  "author": "Behrad Hajmiri",
+  "e-mail": "behradhajmiri@gmail.com",
   "private": true,
   "dependencies": {
     "@silvermine/videojs-quality-selector": "^1.2.5",

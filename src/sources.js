@@ -34,7 +34,7 @@ export const foreignSources = [
     label: 'youtube1',
     cover: 'https://yttbn1-cdn.zarebin.ir/RhWwYErW7PUyWL5gB0MkvQ/4764998504/vi/gWulDict1ko/hqdefault.jpg?zb_src=i.ytimg.com&zb_dmn=i.ytimg.com&zb_scm=https',
     format: 'video/mp4; codecs=\'avc1.42001E, mp4a.40.2\'',
-    src: 'https://ytb1-cdn.zarebin.ir/gqY1K_MR-fswktioFWa2ow/4764998504/videoplayback?expire=1640880497&ei=EYXNYYakOJWtxgLm-qX4BA&ip=89.45.49.102&id=o-AKZsB3KQhqDhcAtIGWIbNwNQsCTx4qkS0XWYIN5JZNRR&itag=18&source=youtube&requiressl=yes&mh=oi&mm=31%2C26&mn=sn-hju7enel%2Csn-4g5lzney&ms=au%2Conr&mv=m&mvi=5&pl=24&initcwndbps=382500&spc=4ocVCx5x_5eujywEwHa7TBaMKwX0&vprv=1&mime=video%2Fmp4&ns=Dt23DJKZahOT2mcDVc5cJyAG&gir=yes&clen=2078029&ratebypass=yes&dur=49.173&lmt=1636363228890205&mt=1640858458&fvip=5&fexp=24001373%2C24007246&c=WEB&txp=6310224&n=RK0xCrdYwrcLmtdS&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cspc%2Cvprv%2Cmime%2Cns%2Cgir%2Cclen%2Cratebypass%2Cdur%2Clmt&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRQIhAMeZGPblA__AIHtCmNeOLiY5ljqSEd9K2rV0BFq9e_E5AiB71J2ouosUqMw9wIEHpREzh0II1F6IBYgr7e3iWkQnpw%3D%3D&sig=AOq0QJ8wRQIhAOlmC2lJAFaNNNPj3pBQnQNH0enqI8JZtb0AS8kf-468AiAF_VZX6idj50syv5EmInmQmR2k990LXCqyEAtmU02UOQ%3D%3D&code=gWulDict1ko&pid=1087&zb_src=rr5---sn-hju7enel.googlevideo.com&zb_dmn=rr5---sn-hju7enel.googlevideo.com&zb_scm=https',
+    src: "https://dls.music-fa.com/tagdl/99/Mehraj%20-%20Talkh%20(128).mp3",
     type: 'video/mp4',
   },
   {

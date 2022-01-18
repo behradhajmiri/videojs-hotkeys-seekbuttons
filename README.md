@@ -1,15 +1,17 @@
 # Video Player
 
-This is a video player with react that uses video.js and has three options:
+This is a video player with react that uses video.js and has more options:
 - hotkeys
 - seek buttons
 - quality selector
+- change style (without changing css files)
 
 For more information please check the links:
 
 - https://github.com/silvermine/videojs-quality-selector
 - https://github.com/ctd1500/videojs-hotkeys
 - https://github.com/mister-ben/videojs-seek-buttons
+- https://github.com/facundofernandez/videojs-css
 
 ## Available Scripts
 
